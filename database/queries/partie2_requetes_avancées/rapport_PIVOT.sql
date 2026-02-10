@@ -3,7 +3,7 @@
 -- Sélectionner la base de données
 USE classicmodels;
 
-#  rapport PIVOT manuel des ventes par gamme de produits et par trimestre.
+-- rapport PIVOT manuel des ventes par gamme de produits et par trimestre.
 SELECT 
     p.productLine,
 
