@@ -1,3 +1,5 @@
+-- PARTIE 2 : (2) AHiérarchie organisationnelle avec CTE RÉCURSIF
+
 -- Sélectionner la base de données
 USE classicmodels;
 
