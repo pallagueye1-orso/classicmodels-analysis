@@ -1,5 +1,6 @@
 import pandas as pd
 from datetime import datetime
+from src.database.db_connection import query
 
 sql = """
 SELECT 
