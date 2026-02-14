@@ -27,7 +27,6 @@ Dans un terminal ou dans Jupyter :
 pip install -r requirements.txt
 
 ### 3. Lancer Jupyter Notebook
-jupyter notebook
 ---
 
 ## Base de données MySQL
