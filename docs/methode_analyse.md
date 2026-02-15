@@ -1,4 +1,5 @@
 # Méthodologie d’Analyse – Projet ClassicModels
+
 Ce document présente la méthodologie adoptée pour la réalisation du projet d’analyse SQL et Python sur la base de données ClassicModels. Il décrit les différentes étapes de travail, l’organisation du projet, la structure du code, la gestion des notebooks ainsi que l’approche analytique utilisée pour produire les résultats finaux.
 ---
 
