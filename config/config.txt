@@ -1,0 +1,4 @@
+Ce dossier est réservé aux fichiers de configuration (par exemple : 
+paramètres de connexion, variables d'environnement).
+
+Mais aucun fichier de configuration sensible n'est inclus dans ce dépôt.
