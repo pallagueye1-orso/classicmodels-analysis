@@ -71,7 +71,7 @@ Objectifs :
 - Gamme de produits la plus rentable
 
 Toutes les requêtes SQL sont dans : database/queries/. Et les visualisations associées sont dans : 
-visualizations/partie1_visualisations.png
+visualizations/partie1_visualisations/
 ---
 
 # Requêtes SQL avancées (PARTIE 2)
