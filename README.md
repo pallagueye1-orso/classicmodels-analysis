@@ -2,7 +2,7 @@ Initialisation de la structure du projet SQL-Python (M1 BIDABI)
 # classicmodels-analysis Project
 
 
-Ce projet réalise une analyse complète de la base de données **ClassicModels** à l’aide de **MySQL**, **Python**, **Jupyter Notebook**et **google colab**. L’objectif est de produire des insights métier, des visualisations et des recommandations stratégiques.
+Ce projet réalise une analyse complète de la base de données **ClassicModels** à l’aide de **MySQL**, **Python**, **Jupyter Notebook** et **Google Colab**. L’objectif est de produire des insights métier, des visualisations et des recommandations stratégiques.
 ---
 
 ## Structure du projet
@@ -13,20 +13,23 @@ visualizations/,
 docs/, 
 reports/, 
 config/,
-requirements.txt, 
+requirements/requirements.txt, 
 README.md.
 ---
 
 ## Installation
 ### 1. Cloner le projet
-git clone https://github.com/<ton-repo>/classicmodels-analysis.git
+git clone https://github.com/pallagueye1-orso/classicmodels-analysis.git
 cd classicmodels-analysis
 
 ### 2. Installer les dépendances
 Dans un terminal ou dans Jupyter :
-pip install -r requirements.txt
+pip install -r requirements/requirements.txt
 
 ### 3. Lancer Jupyter Notebook
+```bash
+jupyter notebook
+```
 ---
 
 ## Base de données MySQL
@@ -35,8 +38,16 @@ Le projet utilise la base **ClassicModels**. Le téléchargement est via : https
 ### Connexion utilisée :
 - **host** : "localhost"  
 - **user** : "root"  
-- **password** : "ton_mot_de_passe"  
+- **password** : lu dans la variable d'environnement `MYSQL_PASSWORD` (jamais écrit dans le code)  
 - **database** : "classicmodels"  
+Avant de lancer les scripts, définir le mot de passe dans le terminal :
+```bash
+# Linux / macOS
+export MYSQL_PASSWORD="votre_mot_de_passe"
+# Windows (PowerShell)
+$env:MYSQL_PASSWORD="votre_mot_de_passe"
+```
+
 Le fichier Python de connexion se trouve dans :
 src/database/partie3_db_connection.py
 ---
@@ -90,7 +101,7 @@ Développement d’un module Python avec connexion MySQL et visualisations :
 5. Analyse des stocks (ruptures, stocks faibles)
 6. Répartition du chiffre d’affaires par clients (top clients vs autres)
 
-Les scripts sont dans : scr/analysis/. Et les graphiques sont dans: scr/exports/.
+Les scripts sont dans : src/analysis/. Et les graphiques sont dans: src/exports/.
 ---
 
 ## Analyses réalisées (Partie 4)
