@@ -149,8 +149,18 @@ jupyter
 google colab
 ---
 
+## Résultats
+- **Segmentation RFM** : deux clients ressortent comme VIP parmi ceux affichés dans le rapport, Australian Collectors, Co. (monetary 180 585,07 ; score RFM 11) et La Rochelle Gifts (monetary 158 573,12 ; score RFM 12).
+- **Produits achetés ensemble** : la paire la plus fréquente est S50_1341 avec S700_1691, achetée ensemble 28 fois.
+- **Statut des commandes** : la grande majorité des commandes sont expédiées (Shipped).
+- **Saisonnalité** : les ventes montent fortement en fin d'année, avec un pic en novembre 2003 et un quatrième trimestre nettement plus élevé que les trois autres.
+- **Gammes de produits** : Classic Cars arrive en tête du chiffre d'affaires.
+
+Le détail des analyses et les graphiques sont dans le rapport final.
+---
+
 ## Rapport final
-Le rapport final se trouve dans : reports/rapport_final.pdf
+Le rapport final se trouve dans : reports/Rapport.pdf
 Il contient :
 - les analyses SQL  
 - les analyses Python  
