@@ -1,3 +1,4 @@
+import os
 import mysql.connector
 import pandas as pd
 
@@ -5,7 +6,7 @@ def query(sql, params=None):
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="oussy",
+        password=os.environ["MYSQL_PASSWORD"],
         database="classicmodels"
     )
     cursor = conn.cursor(dictionary=True)

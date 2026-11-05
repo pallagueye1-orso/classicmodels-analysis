@@ -6,7 +6,7 @@ import os
 db_config = {
     "host": "localhost",
     "user": "root",
-    "password": "oussy",
+    "password": os.environ["MYSQL_PASSWORD"],
     "database": "classicmodels"
 }
 
